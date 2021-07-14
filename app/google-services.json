@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814185434307",
+    "project_id": "story-of-egypt-581ff",
+    "storage_bucket": "story-of-egypt-581ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814185434307:android:f4857045285816a0992676",
+        "android_client_info": {
+          "package_name": "com.story.egypt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814185434307-gqdptoj67bddm85tlb19p4mfm8g76807.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFOZMP6-yWLYmK8zffhqH454SFwNi0JhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814185434307-gqdptoj67bddm85tlb19p4mfm8g76807.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

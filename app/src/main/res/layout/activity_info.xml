@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:contentDescription="info_image"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/info_panel" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="267dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:contentDescription="how_to_play"
+            app:srcCompat="@drawable/table" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="336dp"
+            android:layout_height="148dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/almendra_sc"
+            android:gravity="center"
+            android:text="There you can watch all lines. If 3 cards is similar - spin coins * 2. If 4 - spin coins * 4. If 5 - spin coins * 8."
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/btn" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="back"
+            android:fontFamily="@font/almendra_sc"
+            android:gravity="center"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:textSize="48sp" />
+    </FrameLayout>
+</LinearLayout>
