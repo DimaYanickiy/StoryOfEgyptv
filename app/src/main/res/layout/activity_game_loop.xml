@@ -35,7 +35,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/almendra_sc"
                 android:text="Coins: 10000"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="34sp" />
         </FrameLayout>
 
@@ -394,7 +394,7 @@
             android:fontFamily="@font/almendra_sc"
             android:gravity="center"
             android:text="Back"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="48sp" />
     </FrameLayout>
 </LinearLayout>

@@ -130,7 +130,7 @@
                         android:layout_gravity="center"
                         android:fontFamily="@font/almendra_sc"
                         android:text="Exit"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="34sp" />
                 </FrameLayout>
             </LinearLayout>

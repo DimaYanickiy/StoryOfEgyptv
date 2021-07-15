@@ -64,7 +64,7 @@
             android:fontFamily="@font/almendra_sc"
             android:gravity="center"
             android:text="Back"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="48sp" />
     </FrameLayout>
 </LinearLayout>

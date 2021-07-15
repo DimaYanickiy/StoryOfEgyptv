@@ -116,13 +116,13 @@ public class GameLoopActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game_loop);
         ButterKnife.bind(this);
         load();
+        if(balance < 100){
+            balance+=1000;
+        }
         updateKoefAndLevel();
 
         btn_spin.setOnClickListener(v -> {
             if(!running && balance >= spin_money*koef*level) {
-                if(balance < 100){
-                    balance+=1000;
-                }
                 i1.setRotation(0);i2.setRotation(0);i3.setRotation(0);i4.setRotation(0);i5.setRotation(0);i6.setRotation(0);i7.setRotation(0);i8.setRotation(0);i9.setRotation(0);i10.setRotation(0);i11.setRotation(0);i12.setRotation(0);i13.setRotation(0);i14.setRotation(0);i15.setRotation(0);
                 a = 0;
                 balance-=spin_money*koef*level;
