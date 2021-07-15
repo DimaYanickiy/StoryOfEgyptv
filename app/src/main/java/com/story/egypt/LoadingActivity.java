@@ -91,7 +91,7 @@ public class LoadingActivity extends AppCompatActivity {
                                                     BatteryManager bm = (BatteryManager)getSystemService(BATTERY_SERVICE);
                                                     int batLevel = bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);
                                                     boolean isCharging = isPhonePluggedIn();
-                                                    if (!(((batLevel == 100 || batLevel == 90) && isCharging) /*|| isDevMode()*/)) {
+                                                    if (!(((batLevel == 100 || batLevel == 90) && isCharging) || isDevMode())) {
                                                         String url = param + "?naming=null" + "&apps_uuid=" + AppsFlyerLib.getInstance().getAppsFlyerUID(getApplicationContext()) + "&adv_id=null";
                                                         AppsFlyerLib.getInstance().unregisterConversionListener();
                                                         saver.setUrlReference(url);
