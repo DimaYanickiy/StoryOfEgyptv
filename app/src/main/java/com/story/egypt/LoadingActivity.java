@@ -80,8 +80,8 @@ public class LoadingActivity extends AppCompatActivity {
                                                     if (campaign.equals("null") || campaign.isEmpty()) {
                                                         campaign = jsonObject.optString("c");
                                                     }
-                                                    String[] splitsCampaign = campaign.split("_");
                                                     try{
+                                                        String[] splitsCampaign = campaign.split("_");
                                                         OneSignal.sendTag("user_id", splitsCampaign[2]);
                                                     }catch(Exception e){
 
